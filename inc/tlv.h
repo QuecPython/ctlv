@@ -73,7 +73,7 @@ tlv_int32_t tlv_box_get_size(tlv_box_t *box);
 tlv_error_t tlv_set_tags(tlv_box_t *box, tlv_uint16_t * tags_buff, tlv_uint16_t tags_num);
 tlv_base_t *tlv_box_get_value(tlv_box_t *box);
 void tlv_box_dest_value(tlv_box_t *box);
-tlv_int16_t tlv_box_get_lenth(tlv_box_t *box, tlv_uint16_t tag);
+tlv_int16_t tlv_box_get_length(tlv_box_t *box, tlv_uint16_t tag);
 tlv_error_t tlv_set_value(tlv_box_t *box, tlv_uint16_t tag, void *value, tlv_uint16_t length);
 tlv_error_t tlv_box_serialize(tlv_box_t *box, tlv_uint8_t byteorder);
 
